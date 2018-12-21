@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "Nomis Gmail Small Labels",
+    "version": "0.1.0",
+    "description": "Make Gmail labels small in the message list pane.",
+
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://mail.google.com/*"]
+    }]
+
+}
